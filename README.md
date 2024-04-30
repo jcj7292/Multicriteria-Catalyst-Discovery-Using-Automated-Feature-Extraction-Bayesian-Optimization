@@ -42,7 +42,7 @@ The code takes approximately 60 seconds before running BO iterations.
 
 # Demo
 
-The total number of BO interations is set as 3 to shorten the demonstration time. In the paper the number of iterations is 80.
+The total number of BO iterations, "sampling_itr," is set to 3 for the sake of demonstration brevity. In the paper, the number of iterations is 80.
 
 # Results
 
