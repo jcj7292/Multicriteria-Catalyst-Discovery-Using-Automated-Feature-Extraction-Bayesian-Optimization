@@ -2,7 +2,7 @@
 
 # Overview
 
-High-performance catalysts are crucial for sustainable energy conversion and human health. However, the discovery of catalysts faces challenges due to the absence of efficient approaches to navigating vast and high-dimensional structure and composition spaces. In this package, we provide a high-throughput computational catalyst screening approach integrating density functional theory (DFT) and Bayesian Optimization (BO). Within the BO framework, we propose an uncertainty-aware atomistic machine learning model, UPNet, which enables automated representation learning directly from high-dimensional catalyst structures and achieves principled uncertainty quantification. Utilizing a constrained expected improvement acquisition function, our BO framework simultaneously considers multiple evaluation criteria. Using the proposed methods, we explore catalyst discovery for the CO2 reduction reaction. 
+In this package, we provide a high-throughput computational catalyst screening approach integrating density functional theory (DFT) and Bayesian Optimization (BO). Within the BO framework, we propose an uncertainty-aware atomistic machine learning model, UPNet, which enables automated representation learning directly from high-dimensional catalyst structures and achieves principled uncertainty quantification. Utilizing a constrained expected improvement acquisition function, our BO framework simultaneously considers multiple evaluation criteria. Using the proposed methods, we explore catalyst discovery for the CO2 reduction reaction. 
 
 
 # System Requirements
