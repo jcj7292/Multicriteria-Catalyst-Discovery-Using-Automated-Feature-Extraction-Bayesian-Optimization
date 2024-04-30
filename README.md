@@ -34,7 +34,7 @@ tensorflow 2.2.0
 ```
 
 
-# Installation Guide
+# Installation Guide and Instructions for Use
 
 Please download all files and run "bayesian optimization CO2R.py".
 
