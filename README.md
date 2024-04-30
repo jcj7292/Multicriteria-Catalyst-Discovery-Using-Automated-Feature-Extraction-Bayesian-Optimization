@@ -48,6 +48,3 @@ The total number of BO interations is set as 3 to shorten the demonstration time
 
 The output is the initial samples and samples selected by BO. The results are plotted on the volcano scaling relationship for activity.
 
-# Citation
-
-For usage of the package and associated manuscript, please cite according to the enclosed [citation.bib](./citation.bib).
