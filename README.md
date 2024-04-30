@@ -1,37 +1,8 @@
-# Linear Optimal Low Rank Projection (lolR)
-
-
-[![CRAN Status Badge](http://www.r-pkg.org/badges/version/lolR)](http://cran.r-project.org/web/packages/lolR)
-[![arXiv shield](https://img.shields.io/badge/arXiv-1709.01233-red.svg?style=flat)](https://arxiv.org/abs/1709.01233)
-[![Travis-CI Build Status](https://travis-ci.org/neurodata/lol.svg?branch=master)](https://travis-ci.org/neurodata/lol)
-[![Codecov status](https://codecov.io/gh/neurodata/lol/branch/master/graph/badge.svg)](https://codecov.io/gh/neurodata/lol)
-[![Downloads badge](https://cranlogs.r-pkg.org/badges/lolR)](https://cranlogs.r-pkg.org/badges/lolR)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1246979.svg)](https://doi.org/10.5281/zenodo.1246979)
-
-
-## Contents
-
-- [Overview](#overview)
-- [Repo Contents](#repo-contents)
-- [System Requirements](#system-requirements)
-- [Installation Guide](#installation-guide)
-- [Demo](#demo)
-- [Results](#results)
-- [License](./LICENSE)
-- [Issues](https://github.com/ebridge2/lol/issues)
-- [Citation](#citation)
+# Adaptive Catalyst Discovery Using Multicriteria Bayesian Optimization with Representation Learning
 
 # Overview
 
-Supervised learning techniques designed for the situation when the dimensionality exceeds the sample size have a tendency to overfit as the dimensionality of the data increases. To remedy this high dimensionality; low sample size (HDLSS) situation, we attempt to learn a lower-dimensional representation of the data before learning a classifier. That is, we project the data to a situation where the dimensionality is more manageable, and then we are able to better apply standard classification or clustering techniques since we will have fewer dimensions to overfit. A number of previous works have focused on how to strategically reduce dimensionality in the unsupervised case, yet in the supervised HDLSS regime, few works have attempted to devise dimensionality reduction techniques that leverage the labels associated with the data. In this package, we provide several methods for feature extraction, some utilizing labels and some not, along with easily extensible utilities to simplify cross-validative efforts to identify the best feature extraction method. Additionally, we include a series of adaptable benchmark simulations to serve as a standard for future investigative efforts into supervised HDLSS. Finally, we produce a comprehensive comparison of the included algorithms across a range of benchmark simulations and real data applications.
-
-# Repo Contents
-
-- [R](./R): `R` package code.
-- [docs](./docs): package documentation, and usage of the `lolR` package on many real and simulated data examples.
-- [man](./man): package manual for help in R session.
-- [tests](./tests): `R` unit tests written using the `testthat` package.
-- [vignettes](./vignettes): `R` vignettes for R session html help pages.
+High-performance catalysts are crucial for sustainable energy conversion and human health. However, the discovery of catalysts faces challenges due to the absence of efficient approaches to navigating vast and high-dimensional structure and composition spaces. In this package, we provide a high-throughput computational catalyst screening approach integrating density functional theory (DFT) and Bayesian Optimization (BO). Within the BO framework, we propose an uncertainty-aware atomistic machine learning model, UPNet, which enables automated representation learning directly from high-dimensional catalyst structures and achieves principled uncertainty quantification. Utilizing a constrained expected improvement acquisition function, our BO framework simultaneously considers multiple evaluation criteria. Using the proposed methods, we explore catalyst discovery for the CO2 reduction reaction. 
 
 
 # System Requirements
