@@ -12,6 +12,7 @@ High-performance catalysts are crucial for sustainable energy conversion and hum
 The package development version is tested on a computer with the following specs:
 
 CPU: Intel(R) Xeon(R) W-2295  @ 3.00GHz
+
 GPU: NVIDIA TU104GL
 
 ## Software Requirements
