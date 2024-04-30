@@ -24,13 +24,14 @@ The package development version is tested on *Linux* operating systems. The deve
 Linux:  5.4.0-176-generic #196-Ubuntu SMP  
 
 ### Software Dependencies
+```
 Python 3.9.7
 pandas 1.4.3
 numpy 1.23.1
 scipy 1.4.1
 matplotlib 3.5.2
 tensorflow 2.2.0
-
+```
 
 
 # Installation Guide
