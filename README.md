@@ -36,86 +36,17 @@ tensorflow 2.2.0
 
 # Installation Guide
 
-## Stable Release
+Please download all files and run "bayesian optimization CO2R.py".
 
-`lolR` is available in a stable release on CRAN:
-
-```
-install.packages('lolR')
-```
-
-## Development Version
-
-### Package dependencies
-
-Users should install the following packages prior to installing `lolR`, from an `R` terminal:
-
-```
-install.packages(c('ggplot2', 'abind', 'irlba', 'knitr', 'rmarkdown', 'latex2exp', 'MASS', 'randomForest'))
-```
-
-which will install in about 30 seconds on a machine with the recommended specs.
-
-The `lolR` package functions with all packages in their latest versions as they appear on `CRAN` on December 13, 2017. Users can check [CRAN snapshot](https://mran.microsoft.com/timemachine/) for details. The versions of software are, specifically:
-```
-abind_1.4-5
-latex2exp_0.4.0
-ggplot2_2.2.1
-irlba_2.3.1
-Matrix_1.2-3
-MASS_7.3-47
-randomForest_4.6-12
-```
-
-If you are having an issue that you believe to be tied to software versioning issues, please drop us an [Issue](https://github.com/neurodata/lol/issues). 
-
-### Package Installation
-
-From an `R` session, type:
-
-```
-require(devtools)
-install_github('neurodata/lol', build_vignettes=TRUE, force=TRUE)  # install lol with the vignettes
-require(lolR)
-vignette("lol", package="lolR")  # view one of the basic vignettes
-```
-
-The package should take approximately 40 seconds to install with vignettes on a recommended computer. 
+The code takes approximately 60 seconds before running BO iterations. 
 
 # Demo
 
-## Functions
-
-For interactive demos of the functions, please check out the vignettes built into the package. They can be accessed as follows:
-
-```
-require(lolR)
-vignette('lol')
-vignette('pca')
-vignette('cpca')
-vignette('lrcca')
-vignette('mdp')
-vignette('xval')
-vignette('qoq')
-vignette('simulations')
-vignette('nearestCentroid')
-```
-
-## Extending the lolR Package
-
-The lolR package makes many useful resources available (such as embedding and cross-validation) for simple extension. 
-
-To extend the lolR package, check out the vignettes:
-
-```
-require(lolR)
-vignette('extend_embedding')
-vignette('extend_classification')
-```
+The total number of BO interations is set as 3 to shorten the demonstration time. In the paper the number of iterations is 80.
 
 # Results
 
-In this [benchmark comparison](http://docs.neurodata.io/lol/lol-paper/figures/real_data.html), we show that LOL does better than all linear embedding techniques in supervised HDLSS settings when dimensionality is high (d > 100, ntrain <= d) on 20 benchmark problems from the [UCI](https://archive.ics.uci.edu/ml/index.php) and [PMLB](https://github.com/EpistasisLab/penn-ml-benchmarks) datasets. LOL provides a good tradeoff between maintaining the class conditional difference (good misclassification rate) in a small number of dimensions (low number of embedding dimensions).
+The output is the initial samples and samples selected by BO. The results are plotted on the volcano scaling relationship for activity.
 
 # Citation
 
