@@ -36,7 +36,7 @@ tensorflow 2.2.0
 
 # Installation Guide and Instructions for Use
 
-Please download all files and run "bayesian optimization CO2R.py".
+Please download all files, unzip "dataset.zip", and run "bayesian optimization CO2R.py".
 
 The code takes approximately 60 seconds before running BO iterations. 
 
